@@ -1,0 +1,149 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>G-CARD</title>
+		<link rel="stylesheet"  href="https://kit-pro.fontawesome.com/releases/v5.15.2/css/pro.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+		<script src="../js/app.js"></script>
+	</head>
+	<body>
+
+	<!-- BARRE DE NAVIGATION -->
+
+	<div class="header">	
+		<nav class="navbar" id="nav">
+			<div class="brand-title">
+				<a href="index.html">
+					<img class="logo" src="../img/logow.png">
+				</a>
+			</div>
+			<div class="navbar-links">
+			  <ul>
+				<li><a href="favoris.html"><i class="fal fa-heart"></i></a></li>
+				<li><a href="panier.html"><i class="fal fa-shopping-cart"></i></a></li>	
+				<li><a href="login.html"><i class="fal fa-user-alt"></i></a></li>
+			  </ul>
+			</div>
+		</nav>
+	</div>
+	
+	<!-- PRODUIT -->
+	
+	<div class="main pdt">
+		<div class="detail">
+			<div class="produit">
+				<div class="item"><img src="../img/playstation.png" class="marque"></div>
+				<p class="nom">Playstation</p>
+			</div>
+			<div class="spec">
+				<p class="intit"><b>Carte cadeau Playstation</b></p>
+				<form class="formno" method="GET">
+				<p class="qtt">Quantité : 	<select  required name="quantite" size="1">
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="4">4</option>
+												<option value="5">5</option>
+												<option value="6">6</option>
+												<option value="7">7</option>
+												<option value="8">8</option>
+												<option value="9">9</option>
+												<option value="10">10</option>
+											</select>
+				</p>
+				<p class="qtt">Prix unit :</p>
+					<div required class="radio">
+						<input class="radio_input" type="radio" value="15" name="prix" id="prix1" required>
+						<label class="selection first" for="prix1">15 €</label>
+						<input class="radio_input" type="radio" value="25" name="prix" id="prix2">
+						<label class="selection" for="prix2">25 €</label>
+						<input class="radio_input" type="radio" value="50" name="prix" id="prix3">
+						<label class="selection" for="prix3">50 €</label>
+					</div>
+
+					<div class="add">
+						<button class="ajout panier first"><b>Ajouter au panier</b></button>
+						<button class="ajout favoris"><i class="fal fa-heart"></i></button>
+				</div>
+				</form>
+			</div>
+		</div>
+		<hr class="trait">
+		<div class="description">
+			<p>Offrez à un gamer ce qu'il désire réellement avec une carte cadeau PSN et faites passer son expérience de jeu au niveau supérieur.
+			Envoyez instantanément des cartes cadeaux Playstation en ligne avec G-Card.</p>
+		</div>
+	</div>
+	
+	<!-- QUESTIONS -->
+	<!-- PLAYSTATION -->
+	
+	<div class="main pdt questions">
+		<p class="qst">Acheter une carte cadeau PlayStation sur G-Card</p>
+		<p class="qtt">
+			Vous voulez recharger votre porte-monnaie PlayStation avec une carte PSN
+			pour acheter plus de jeux, des add-ons, ou des DLC dans le PlayStation Store ?
+			Choisissez alors G-Card ! G-Card est un distributeur de cartes PlayStation
+			Network. Vous pouvez toujours être 100% certain que vous recevrez un code PSN authentique.
+		</p>
+		<br/>
+		<p class="qst">Qu'est-ce qu'une carte PlayStation Network ?</p>
+		<p class="qtt">
+			La carte PSN (carte PlayStation Network) est une carte cadeau avec laquelle vous pouvez recharger votre porte-monnaie PSN.
+			Avec vos crédits PSN, vous pouvez commander des produits du PlayStation Store quand vous voulez,
+			comme de nouveaux jeux PlayStation ou des offres alléchantes. Pas assez de crédits PSN ?
+			Rechargez simplement vos crédits avec une carte cadeau PlayStation.
+		</p>
+		<br/>
+		<p class="qst">Comment recevoir ma carte PlayStation ?</p>
+		<p class="qtt">
+			Après avoir terminé votre commande, nous vous enverrons immédiatement votre carte cadeau PlayStation Store
+			sous la forme d'un code numérique. Vous verrez ce code immédiatement sur votre écran et vous le recevrez également par e-mail.
+			Vous recevez votre code avec des instructions, afin que vous puissiez toujours activer facilement votre code PSN dans le PS Store.
+		</p>
+		<br/>
+		<p class="qst">Comment activer mon code PSN ?</p>
+		<p class="qtt">
+				Vous pouvez utiliser votre carte PlayStation Network sur votre console PlayStation.
+		</p>
+			<ul class="activation">
+				<li>Sur l'écran d'accueil de votre PlayStation, allez sur "<b>PlayStation Store</b>".</li>
+				<li>Sélectionnez "<b>Activer un code</b>" dans le menu à gauche de votre écran.</li>
+				<li>Entrez votre code PSN.</li>
+			</ul>
+		<p class="qtt">
+			Après avoir activé votre carte prépayée PSN ou carte cadeau PS Plus, elle est automatiquement ajoutée à votre compte.
+			Besoin d'aide pour activer vos codes PlayStation ? Contactez notre support.
+		</p>
+	</div>
+	
+	<!-- FOOTER -->
+        <footer>
+				<div class="links">
+					<div class="cat">
+						<a href="index.html">Produits</a>
+					</div>
+					<div class="cat">
+						<a href="cgu.html">Conditions Générales</a>
+					</div>
+					<div class="cat">
+						<a href="contact.html">Contact</a>
+					</div>
+				</div>
+            <div class="more">
+                <div class="rsociaux">
+                    <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></i></a>
+                </div>
+				<hr class="trait">
+				<p class="qtt foot">© 2021 G-Card. Tous droits réservés.<br/>
+				Les noms de produits présentés sont utilisés à des fins d'identification uniquement.
+				Toutes les marques commerciales et marques déposées appartiennent à leurs propriétaires respectifs.</p>
+            </div>
+        </footer>
+	<!-- FIN FOOTER -->
+	
+	<script src="app.js"></script>
+	</body>
+</html>

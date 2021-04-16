@@ -1,0 +1,151 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>G-CARD</title>
+		<link rel="stylesheet"  href="https://kit-pro.fontawesome.com/releases/v5.15.2/css/pro.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+		<script src="../js/app.js"></script>
+	</head>
+	<body>
+	
+		<!-- BARRE DE NAVIGATION -->
+
+		<div class="header">	
+			<nav class="navbar" id="nav">
+				<div class="brand-title">
+					<a href="index.html">
+						<img class="logo" src="../img/logow.png">
+					</a>
+				</div>
+				<div class="navbar-links">
+				  <ul>
+					<li><a href="favoris.html"><i class="fal fa-heart"></i></a></li>
+					<li><a href="panier.html"><i class="fal fa-shopping-cart"></i></a></li>	
+					<li><a href="login.html"><i class="fal fa-user-alt"></i></a></li>
+				  </ul>
+				</div>
+			</nav>
+		</div>
+		
+		<!-- PANIER -->
+		
+		<div class="main fondPanier">
+			<table cellspacing="1">
+				<tr>
+					<th>Image Produit</th>
+					<th>N° de produit</th>
+					<th>Nom du produit</th>
+					<th>Quantité</th>
+					<th>Prix</th>
+				</tr>
+				<tr>
+					<td>
+						<div class="produit">
+							<a>
+								<div class="item"><img src="../img/apple.png" class="marque"></div>
+							</a>
+						</div>
+					</td>
+					<td>621</td>
+					<td>Carte Cadeau Apple</td>
+					<td>
+						<p class="qtt"><select  required name="quantite" size="1">
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+														<option value="5">5</option>
+														<option value="6">6</option>
+														<option value="7">7</option>
+														<option value="8">8</option>
+														<option value="9">9</option>
+														<option value="10">10</option>
+													</select>
+						</p>
+					</td>
+					<td class="prx">50€</br></br><a>Supprimer</a></td>
+				</tr>
+				<tr>
+					<td>
+						<div class="produit">
+							<a>
+								<div class="item"><img src="../img/spotify.png" class="marque"></div>
+							</a>
+						</div>
+					</td>
+					<td>12</td>
+					<td>Carte Cadeau Spotify</td>
+					<td>
+						<p class="qtt"><select  required name="quantite" size="1">
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+														<option value="5">5</option>
+														<option value="6">6</option>
+														<option value="7">7</option>
+														<option value="8">8</option>
+														<option value="9">9</option>
+														<option value="10">10</option>
+													</select>
+						</p>
+					</td>
+					<td class="prx">25€</br></br><a>Supprimer</a></td>
+				</tr>
+			</table>
+			
+			<!-- RECAPITULATIF -->
+			
+			<table class="recap" cellspacing="1">
+				<tr>
+					<th>Récapitulatif</th>
+				</tr>
+				<tr>
+					<td>Carte cadeau Apple : 50€</br>
+						Carte cadeau Spotify : 25€</td>
+				</tr>
+				<tr>
+					<td class="total"> Total : 75€ </td>
+				</tr>				
+				<tr>
+					<td class="total">
+						<form class="final" method="POST" action="">
+							<input class="valid" name="valide" type="submit" value="Valider">
+							<input class="annul" name="enleve" type="submit" value="Annuler">
+						</form>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+
+		
+		<!-- FOOTER -->
+        <footer>
+				<div class="links">
+					<div class="cat">
+						<a href="index.html">Produits</a>
+					</div>
+					<div class="cat">
+						<a href="cgu.html">Conditions Générales</a>
+					</div>
+					<div class="cat">
+						<a href="contact.html">Contact</a>
+					</div>
+				</div>
+            <div class="more">
+                <div class="rsociaux">
+                    <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></i></a>
+                </div>
+				<hr class="trait">
+				<p class="qtt foot">© 2021 G-Card. Tous droits réservés.<br/>
+				Les noms de produits présentés sont utilisés à des fins d'identification uniquement.
+				Toutes les marques commerciales et marques déposées appartiennent à leurs propriétaires respectifs.</p>
+            </div>
+        </footer>
+		
+	<script src="app.js"></script>
+	</body>
+</html>

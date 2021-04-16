@@ -1,0 +1,178 @@
+	*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	}
+
+    
+	body {
+		margin: 0;
+		padding: 0;
+		min-height:100vh;
+		display:flex;
+		flex-direction:column;
+	}
+
+
+     /* BARRE DE NAVIGATION */
+	 
+	.navbar {
+		display: flex;
+		position: relative;
+		justify-content: space-between;
+		align-items: center;
+		background-color: white;
+		color: white;
+	}
+
+	.navbar-links {
+		height: 100%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+
+	.navbar-links ul {
+		display: flex;
+		padding: 0px;
+		font-family: 'Signika', sans-serif;
+	}
+
+	.navbar-links li {
+		list-style: none;
+		margin: 0 5px;
+		border-radius: 3px;
+	}
+
+	.navbar-links li a {
+		display: block;
+		text-decoration: none;
+		font-size: 17px;
+		padding: 7px 13px;
+		text-transform: uppercase;
+		color: #111d2d;
+	}
+
+	.active{
+		color: white!important;
+		background: #111d2d;
+		border-radius: 3px;
+	}
+	
+	.navbar-links li a:hover {
+		background: #111d2d;
+		color: white;
+		border-radius: 3px;
+		transition: .5s;
+		text-decoration: none;
+	} 
+
+
+	/* CONTENU */
+
+	.content{
+		height: auto;
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		flex-direction: row;
+		background-color: #ebebeb;
+		margin-top: 30px;
+		margin-bottom: 60px;
+		padding: 50px;
+		justify-content: space-between;
+	}
+	
+	.map{
+		height: 400px;
+		width: 500px;
+		border: 2px solid white;
+		border-radius: 5px;
+	}
+	
+	/* FORMULAIRE */
+
+
+	form{
+
+		border: 2px solid white;
+		border-radius: 20px;
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+		padding: 30px;
+		background-color: white;
+	}
+
+
+	.titre2{
+		font-size: 25px;
+		font-family: 'Signika', sans-serif;
+		margin-bottom: 5px;
+		color: #5c43c0;
+	}
+
+	.msg{
+	font-family: 'Fira Sans Condensed', sans-serif;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	}
+
+	.info{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-family: 'Fira Sans Condensed', sans-serif;
+	}
+	.saisie{
+		width: 400px;
+		height: 40px;
+		padding-right: 10px;
+		padding-left: 20px;
+		border-radius: 30px;
+		background-color: #ebebeb;
+		border: none;
+		font-size: 13px;
+		font-family: 'Fira Sans Condensed', sans-serif;
+
+	}
+
+	.saisie:active, .saisie:focus{
+		outline:none;
+	}
+
+	.btn:active, .btn:focus{
+		outline: none;
+	}
+		
+	.textarea{
+		height: 200px;
+		padding-top: 15px;
+		resize:none;
+		border-radius: 20px;
+	}
+
+	.btn{
+		height: 40px;
+		width: 150px;
+		border-radius: 20px;
+		border: 2px solid white;
+		background-color: red;
+		color: white ;	
+		font-family: 'Signika', sans-serif;
+		font-size: 15px;
+		transition: 0.3s;
+		
+	}
+
+	.btn:hover{
+		color: red;
+		background-color: white;
+		border: 2px solid red;
+	}
+
+
+
