@@ -1,0 +1,26 @@
+		/* VOITURES */
+	
+	
+	.grille {
+		display: grid;
+		grid-template-columns: repeat(3, 0fr);
+		grid-gap: 10px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 2%;
+		margin-bottom: 10%;
+		padding: 1%;
+	}
+	
+	.boite{
+		height: 321px;
+		width: 321px;
+		transition: .3s;
+		border: 1px solid #2d3436;
+	}
+	
+
+
+
+    
+    
